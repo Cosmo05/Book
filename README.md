@@ -9,4 +9,6 @@ This is simple python program to download books directly from libgen using ISBN 
 ## How to use
 1) Run the program.
 2) Type the ISBN code and press enter.
-3) If the book is available then it will automatically download the book.
+3) If the book is available then it will automatically download it.
+
+Feel free to make any changes
