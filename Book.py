@@ -6,7 +6,7 @@ option = int(input("Enter your selection"))
 if option==2:
     isbn = input("Please Enter ISBN no-")
     browser = webdriver.Chrome(executable_path="C:\\Users\\Cosmo\\Downloads\\chromedriver.exe") #Change the path to the chromedriver.exe file
-    url = "https://libgen.rs/"
+    url = "https://libgen.is/"
     browser.get(url)
     isbn_button =browser.find_element_by_xpath("//input[@value='identifier']")
     isbn_button.click() 
@@ -23,7 +23,7 @@ if option==2:
 elif option ==1:
     name = input("Enter the name of the book")
     browser = webdriver.Chrome(executable_path="C:\\Users\\Cosmo\\Downloads\\chromedriver.exe") #Change the path to the chromedriver.exe file
-    url = "https://libgen.rs/"
+    url = "https://libgen.is/"
     browser.get(url)
     search_bar = browser.find_element_by_xpath("//input[@id='searchform']")
     search_bar.send_keys(name)
